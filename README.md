@@ -37,7 +37,7 @@ For the SKernel filesystem, I implemented a straightforward approach using a lin
 ### SKernel Video Mode
 For the screen mode, I utilized the [VGA Text Mode](https://wiki.osdev.org/VGA_Hardware) with 16 colors. I didn't focus extensively on this aspect of the kernel, instead I employed it primarily to display text on the screen for testing other components of the kernel. Since my main emphasis was on understanding the kernel's components, doing graphics programming did not really align with my current learning goals.
 
-## SKernel Limitations ⚠️
+## SKernel Limitations
 Some of the kernel limitations manifests themselves into the following:
 
 * It is not intended to be a fully usable kernel, rather, its primary purpose is to try and teach myself about kernel development
