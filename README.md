@@ -11,7 +11,7 @@
 6. [Honorable Mentions](#honorable-mentions)
 
 ## About SKernel
-This is my first experience into the world of low-level development and systems programming in general, with a specific focus on kernel development. Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel' because it is truly simple.
+Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel' because it is truly simple. This is my first experience into the world of low-level development and systems programming in general, with a specific focus on kernel development, so fell free to contribute or criticize as im still learning. 
 
 Some of the features this kernel provides include:
 
@@ -44,10 +44,19 @@ Some of the kernel limitations manifests themselves into the following:
 * There may be some bugs and errors in the code that I overlooked as well
 
 ## Clone and Build
-You can clone the source code of this project to your local machine using
+You can clone the source code of this project to your local machine using:
 ```bash
 git clone https://github.com/OmarAzizi/SKernel.git
 ```
+<br><br>
+The source code includes a GNU/Make Makefile so you can build the project through:
+```bash
+make kernel
+```
+Which will build the kernel source code and run it using the QEMU emulator [install QEMU](https://www.qemu.org/).
+<br><br>
+
+
 
 ## Honorable Mentions
 This section acknowledges and gives credit to the main resources I used while building this Kernel.
