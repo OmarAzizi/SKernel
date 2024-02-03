@@ -56,7 +56,7 @@ make kernel
 Which will build the kernel source code and run it using the QEMU emulator ([Install QEMU](https://www.qemu.org/)).
 <br>
 
-You can rerun the kernel without building it using:
+You can rerun the kernel without building it again using:
 ```bash
 make rerun-kernel
 ```
