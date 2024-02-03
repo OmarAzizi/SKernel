@@ -8,9 +8,9 @@
    - [Skernel Memory Management](#skernel-memory-management)
    - [Skernel Filesystem](#skernel-filesystem)
    - [Skernel Video/Display Mode](#skernel-video-mode)
-4. [SKernel Limitations ⚠️](#skernel-limitations-) 
-5. [Clone and Build](#clone-and-build-) 
-6. [Honorable Mentions](#honorable-mentions-) 
+4. [SKernel Limitations ⚠️](#skernel-limitations) 
+5. [Clone and Build](#clone-and-build) 
+6. [Honorable Mentions](#honorable-mentions) 
 
 
 ## About SKernel
