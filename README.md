@@ -8,7 +8,7 @@ Some of what I implemented into this kernel includes the follwoing:
 
 * Process Management & Multitasking
 * Memory Management such as Paging
-* A really simple run-time heap memory
+* A really simple run-time heap
 * A Simple Filesystem
 * Interrupts
 
@@ -19,4 +19,7 @@ which calles the actual scheduler I implemented in and does context switching wi
 
 
 ## SKernel Memory Management
+For memory management & protection I rolled with the paging technique (A classic one huh?) so I can protect the processes & kernel
+memory spaces from getting accessed by other prcoesses running in memory. So I had to implement page frames & page tables. The paging
+mode I used in SKernel is the 32-bit (PAE Paging)[https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc736309(v=ws.10)?redirectedfrom=MSDN].
 
