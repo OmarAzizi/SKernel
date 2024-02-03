@@ -27,7 +27,7 @@ Some of the features this kernel provides include:
 ### SKernel Process Management
 To manage processes and implement multitasking, I chose preemptive scheduling. The algorithm in action is Round-Robin (RR), which runs whenever the system timer goes off via system interrupt 32 isr_32 (You can check [idt.asm](https://github.com/OmarAzizi/SKernel/blob/main/idt.asm) to see it) which calls the actual scheduler implemented in [scheduler.c](https://github.com/OmarAzizi/SKernel/blob/main/scheduler.c) and performs context switching with the help of embedded assembly in C.
 
-### SKernel Memory Management <img src="https://cdn-icons-png.flaticon.com/256/3786/3786576.png" alt="Custom Icon" width="100">
+### SKernel Memory Management <img src="https://cdn-icons-png.flaticon.com/256/3786/3786576.png" alt="Custom Icon" width="10">
 For memory management and protection, I opted for the paging technique to protect processes and kernel memory spaces from being accessed by other processes running in memory. I implemented page frames and page tables. The paging mode used in SKernel is the 32-bit [PAE Paging](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc736309(v=ws.10)?redirectedfrom=MSDN).
 
 ### SKernel Filesystem
