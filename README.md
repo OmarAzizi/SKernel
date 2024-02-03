@@ -3,14 +3,14 @@
 ![Assembly Icon](https://img.shields.io/badge/language-Assembly-green?style=for-the-badge&logo=assembly)
 # Table of Contents
 1. [About SKernel 🚨](#about-skernel-)
-2. [Features](#features) 
+2. [Features 🕳️](#features-) 
    - [Skernel Process Management](#skernel-process-management)
    - [Skernel Memory Management](#skernel-memory-management)
    - [Skernel Filesystem](#skernel-filesystem)
    - [Skernel Video/Display Mode](#skernel-video-mode)
-4. [SKernel Limitations](#skernel-limitations) 
+4. [SKernel Limitations ⚠️](#skernel-limitations-) 
 5. [Clone and Build ⛓️](#clone-and-build-) 
-6. [Honorable Mentions](#honorable-mentions) 
+6. [Honorable Mentions ⚖️](#honorable-mentions-) 
 
 
 ## About SKernel 🚨
