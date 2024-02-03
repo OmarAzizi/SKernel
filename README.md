@@ -5,7 +5,7 @@
    - [Process Management](#skernel-process-management)
    - [Memory Management](#skernel-memory-management)
    - [Filesystem](#skernel-filesystem)
-   - [Video/Display Mode](#skernel-video/display-mode)
+   - [Video/Display Mode](#skernel-video-display-mode)
 4. [SKernel Limitations](#skernel-limitations)
 5. [Clone and Build](#clone-and-build)
 6. [Honorable Mentions](#honorable-mentions)
