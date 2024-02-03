@@ -54,8 +54,9 @@ The source code includes a GNU/Make Makefile so you can build the project throug
 make kernel
 ```
 Which will build the kernel source code and run it using the QEMU emulator [install QEMU](https://www.qemu.org/).
+
 <br><br>
-You can rerun the kernel withou building it using:
+You can rerun the kernel without building it using:
 ```bash
 make rerun-kernel
 ```
