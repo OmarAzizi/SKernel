@@ -9,8 +9,7 @@
 3. [SKernel Limitations](#skernel-limitations)
 
 ## About SKernel
-This is my first experience into the world of low-level development and systems programming in general, with a specific focus on kernel development. 
-Skernel is x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel,' because it is truly simple.
+This is my first experience into the world of low-level development and systems programming in general, with a specific focus on kernel development. Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel,' because it is truly simple.
 
 Some of the features this kernel provides include:
 
