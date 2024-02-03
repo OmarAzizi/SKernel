@@ -2,15 +2,16 @@
 ![C Icon](https://img.shields.io/badge/language-C-blue?style=for-the-badge&logo=c)
 ![Assembly Icon](https://img.shields.io/badge/language-Assembly-green?style=for-the-badge&logo=assembly)
 # Table of Contents
-1. [About SKernel 🚨](#about-skernel)
-2. [Features 🕳️](#features)
+1. [About SKernel 🚨](#about-skernel)->[About SKernel](#about-skernel)
+2. [Features 🕳️](#features) -> [Features](#features)
    - [Skernel Process Management](#skernel-process-management)
    - [Skernel Memory Management](#skernel-memory-management)
    - [Skernel Filesystem](#skernel-filesystem)
    - [Skernel Video/Display Mode](#skernel-video-mode)
-4. [SKernel Limitations ⚠️](#skernel-limitations)
-5. [Clone and Build ⛓️](#clone-and-build)
-6. [Honorable Mentions ⚖️](#honorable-mentions)
+4. [SKernel Limitations ⚠️](#skernel-limitations) -> [SKernel Limitations](#skernel-limitations)
+5. [Clone and Build ⛓️](#clone-and-build) -> [Clone and Build](#clone-and-build)
+6. [Honorable Mentions ⚖️](#honorable-mentions) -> [Honorable Mentions](#honorable-mentions)
+
 
 ## About SKernel 🚨
 Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel' because it is truly simple. This is my first experience in the world of low-level development and systems programming in general, with a specific focus on kernel development, so feel free to contribute or criticize as im still learning. 
