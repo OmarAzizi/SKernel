@@ -23,3 +23,8 @@ For memory management & protection I rolled with the paging technique (A classic
 memory spaces from getting accessed by other prcoesses running in memory. So I had to implement page frames & page tables. The paging
 mode I used in SKernel is the 32-bit [PAE Paging](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc736309(v=ws.10)?redirectedfrom=MSDN).
 
+## SKernel File System
+For SKernel filesystem I implemented the easiest and most straight-forward one where I used a linked list structure to manage the files
+where there is a base block that has a head that points to the first file added to the filesystem and a tail that points to the last one.
+Its not the most efficent approach to make filesystem out there but it serves well when it comes to learning.
+
