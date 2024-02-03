@@ -53,7 +53,7 @@ The source code includes a GNU/Make Makefile so you can build the project throug
 ```bash
 make kernel
 ```
-Which will build the kernel source code and run it using the QEMU emulator [install QEMU](https://www.qemu.org/).
+Which will build the kernel source code and run it using the QEMU emulator ([Install QEMU](https://www.qemu.org/)).
 <br>
 
 You can rerun the kernel without building it using:
