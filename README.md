@@ -6,10 +6,12 @@
    - [Memory Management](#skernel-memory-management)
    - [Filesystem](#skernel-filesystem)
    - [Video/Display Mode](#skernel-video-mode)
-3. [SKernel Limitations](#skernel-limitations)
+4. [SKernel Limitations](#skernel-limitations)
+5. [Clone and Build](#clone-and-build)
+6. [Honorable Mentions](#honorable-mentions)
 
 ## About SKernel
-This is my first experience into the world of low-level development and systems programming in general, with a specific focus on kernel development. Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel,' because it is truly simple.
+This is my first experience into the world of low-level development and systems programming in general, with a specific focus on kernel development. Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel' because it is truly simple.
 
 Some of the features this kernel provides include:
 
@@ -40,3 +42,16 @@ Some of the kernel limitations manifests themselves into the following:
 * The simple run-time heap implemented is not a true heap, it serves as a basic way to mimic memory allocation at runtime, allowing me focus on other aspects of the kernel 
 * A shell or command-line interface is not implemented
 * There may be some bugs and errors in the code that I overlooked as well
+
+## Clone and Build
+You can clone the source code of this project to your local machine using
+```bash
+git clone https://github.com/OmarAzizi/SKernel.git
+```
+
+## Honorable Mentions
+This section acknowledges and gives credit to the main resources I used while building this Kernel.
+
+* [A Journey in Creating an Operating System Kernel Book](https://539kernel.com/)
+* [OSDev Wiki](https://wiki.osdev.org/Main_Page)
+
