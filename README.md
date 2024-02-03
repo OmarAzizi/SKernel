@@ -21,5 +21,5 @@ which calles the actual scheduler I implemented in and does context switching wi
 ## SKernel Memory Management
 For memory management & protection I rolled with the paging technique (A classic one huh?) so I can protect the processes & kernel
 memory spaces from getting accessed by other prcoesses running in memory. So I had to implement page frames & page tables. The paging
-mode I used in SKernel is the 32-bit (PAE Paging)[https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc736309(v=ws.10)?redirectedfrom=MSDN].
+mode I used in SKernel is the 32-bit [PAE Paging](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc736309(v=ws.10)?redirectedfrom=MSDN).
 
