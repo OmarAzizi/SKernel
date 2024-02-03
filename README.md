@@ -1,5 +1,4 @@
-# SKernel
-## x86 32-bit operating system kernel build with C
+# x86 32-bit operating system kernel built with C
 
 # Table of Contents
 1. [About SKernel](#about-skernel)
