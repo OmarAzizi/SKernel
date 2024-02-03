@@ -11,7 +11,7 @@
 4. [SKernel Limitations](#skernel-limitations)
 5. [Clone and Build](#clone-and-build)
 6. [Honorable Mentions](#honorable-mentions)
-
+:computer: Programming Languages: C and x86 Assembly :assembly:
 ## About SKernel
 Skernel is a bare-bones x86 32-bit operating system kernel built with C. It is named SKernel, short for 'Simple Kernel' because it is truly simple. This is my first experience in the world of low-level development and systems programming in general, with a specific focus on kernel development, so feel free to contribute or criticize as im still learning. 
 
