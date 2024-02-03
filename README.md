@@ -31,7 +31,7 @@ For memory management and protection, I opted for the paging technique to protec
 ### SKernel Filesystem
 For the SKernel filesystem, I implemented a straightforward approach using a linked list structure to manage files. A base block was used that has a head that points to the first file added onto the filesystem and a tail that points to the last one added. While this isn't the most efficient approach for a filesystem, it serves well for my learning purposes.
 
-### SKernel Video/Display Mode
+### SKernel Video Mode
 For the screen mode, I utilized the [VGA Text Mode](https://wiki.osdev.org/VGA_Hardware) with 16 colors. I didn't focus extensively on this aspect of the kernel, instead I employed it primarily to display text on the screen for testing other components of the kernel. Since my main emphasis was on understanding the kernel's components, doing graphics programming did not really align with my current learning goals.
 
 ## SKernel Limitations
