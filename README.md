@@ -1,7 +1,7 @@
 # SKernel 🕸️
 ![C Icon](https://img.shields.io/badge/language-C-blue?style=for-the-badge&logo=c)
 ![Assembly Icon](https://img.shields.io/badge/language-Assembly-green?style=for-the-badge&logo=assembly)
-# Table of Contents 🚨
+# Table of Contents 📍
 1. [About SKernel](#about-skernel)
 2. [Features](#features) 
    - [Skernel Process Management](#skernel-process-management)
